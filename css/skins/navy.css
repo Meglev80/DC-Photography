@@ -1,0 +1,28 @@
+
+.btn-1:hover,
+.event-section .event-item-inner span,
+.story-section .story-item i,
+.story-section .story-text h3,
+.about-section .social-links a i,
+.about-section .about i.fa-camera,
+.about-section .about h3,
+ body.dark .header .nav ul li a.active,
+.header .nav ul li a.active,
+ body.dark .header .nav ul li a:hover,
+.header .nav ul li a:hover{
+    color: #181761;
+}
+
+.btn-1,
+.event-section .event-item-inner:before,
+.about-section .social-links a i,
+.about-section .about img{
+    color: #181761;
+}
+.setting .s-toggle-btn,
+.btn-1,
+.rsvp-section,
+.event-section,
+.about-section .social-links a:hover i{
+    color: #181761;
+}
