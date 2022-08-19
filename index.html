@@ -325,18 +325,18 @@
         </div>
         <div class="row">
             <div class="rsvp-form">
-                <form class="form" action="https://formsubmit.co/daniellechilders@yahoo.com" method="POST">
+                <form class="form" method="POST">
                     <div class="row">
                         <div class="input-group w50">
-                            <input type="text" name="name" placeholder="Name" class="input-control">
+                            <input type="text" name="name" id="fromName" placeholder="Name" class="input-control">
                         </div>
                         <div class="input-group w50">
-                            <input type="email" name="email" placeholder="Email" class="input-control">
+                            <input type="email" name="email" id="email" placeholder="Email" class="input-control">
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-group">
-                            <textarea placeholder="Message" name="comment" class="input-control" cols="30" rows="10" required></textarea>
+                            <textarea placeholder="Message" name="msg" id="msg" class="input-control" cols="30" rows="10" required></textarea>
                     </div>
                     </div>
                     <div class="row">
@@ -408,5 +408,13 @@
 <script src="js/scrollIt.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/theme.js"></script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("ES7uKkJN7qy4x4aEf");
+   })();
+</script>
 </body>
 </html>
