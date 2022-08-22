@@ -702,13 +702,13 @@ footer{
 /*-------message end------*/
 
 /*----foooter----*/
-
-.footer{
-    padding: 20px 0 120px;
-}
 .footer h2{
     color:#a17b6d;
 }
+.footer{
+    padding: 20px 0 120px;
+}
+
 .footer .footer-content{
     flex: 0 0 100%;
     max-width: 100%;
