@@ -706,7 +706,9 @@ footer{
 .footer{
     padding: 20px 0 120px;
 }
-
+.footer h2{
+    color:#a17b6d;
+}
 .footer .footer-content{
     flex: 0 0 100%;
     max-width: 100%;
