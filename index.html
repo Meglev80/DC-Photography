@@ -327,10 +327,10 @@
             <div class="rsvp-form">
                 <form class="form">
                     <div class="row">
-                        <div class="input-group w50"><a href= "mailto:daniellechilders.com">Daniellechilders@yahoo.com</a>
+                        <div class="input-group w50">
                             <input type="text" name="name" id="fromName" placeholder="Name" class="input-control">
                         </div>
-                        <div class="input-group w50">
+                        <div class="input-group w50"><a href= "mailto:daniellechilders.com">Daniellechilders@yahoo.com</a>
                             <input type="email" name="email" id="email" placeholder="Email" class="input-control">
                         </div>
                     </div>
@@ -341,7 +341,7 @@
                     </div>
                     <div class="row">
                         <div class="input-group">
-                    <button onclick="sendMail()" class="btn-1">Send</button>
+                    <button type="submit" class="btn-1">Send</button>
                        </div>
                       </div>
                 </form>
@@ -408,14 +408,7 @@
 <script src="js/scrollIt.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/theme.js"></script>
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("ES7uKkJN7qy4x4aEf");
-   })();
-</script>
+
  
 </body>
 </html>
