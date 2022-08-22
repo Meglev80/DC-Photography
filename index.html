@@ -324,8 +324,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="rsvp-form"><a href= "mailto:daniellechilders.com">
-                <form class="form" method="POST">
+            <div class="rsvp-form">
+                <form class="form">
                     <div class="row">
                         <div class="input-group w50">
                             <input type="text" name="name" id="fromName" placeholder="Name" class="input-control">
@@ -341,7 +341,7 @@
                     </div>
                     <div class="row">
                         <div class="input-group">
-                    <button type="submit" class="btn-1">Send</button>
+                    <button onclick="sendMail()" class="btn-1">Send</button>
                        </div>
                       </div>
                 </form>
@@ -408,6 +408,14 @@
 <script src="js/scrollIt.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/theme.js"></script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("ES7uKkJN7qy4x4aEf");
+   })();
+</script>
  
 </body>
 </html>
