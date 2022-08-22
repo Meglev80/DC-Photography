@@ -47,19 +47,7 @@ $(window).on("load", function(){
 
 
 
-function sendMail(params) {
-    var tempParams = {
-        from_name: document.getElementById("fromName").value,
-        email: document.getElementById("email").value,
-        message: document.getElementById("msg").value,
-        
-    };
-    
-    emailjs.send('service_dckce2f','template_peh4n39', tempParams)
-    .then(function(res){
-        console.log("success", res.status);
-    })
-}
+
 
 
 
